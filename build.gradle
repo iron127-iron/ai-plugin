@@ -12,9 +12,13 @@ repositories {
         url = 'https://repo.papermc.io/repository/maven-public/'
     }
 
-    // ⭐ 必加，不然 Citizens 會爆
     maven {
         url = 'https://maven.citizensnpcs.co/repo'
+    }
+
+    // ⭐⭐ 關鍵修復（libby 在這）
+    maven {
+        url = 'https://repo.codemc.org/repository/maven-public/'
     }
 }
 
