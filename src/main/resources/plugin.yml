@@ -1,0 +1,9 @@
+name: AIPlugin
+version: 1.0
+main: me.ai.Main
+api-version: 1.21
+depend: [Citizens]
+
+commands:
+  ai:
+    description: AI command
