@@ -20,8 +20,8 @@ repositories {
 dependencies {
     compileOnly "io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT"
 
-    // ⭐ 改這裡（超重要）
-    compileOnly "net.citizensnpcs:citizens-main:2.0.32"
+    // ⭐ 改這裡（重點）
+    compileOnly "net.citizensnpcs:citizensapi:2.0.33-SNAPSHOT"
 
     implementation 'org.json:json:20240303'
 }
