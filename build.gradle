@@ -7,14 +7,21 @@ version = '1.0'
 
 repositories {
     mavenCentral()
+
     maven {
         url = 'https://repo.papermc.io/repository/maven-public/'
+    }
+
+    // ⭐ 必加，不然 Citizens 會爆
+    maven {
+        url = 'https://maven.citizensnpcs.co/repo'
     }
 }
 
 dependencies {
     compileOnly "io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT"
     compileOnly "net.citizensnpcs:citizens-main:2.0.33-SNAPSHOT"
+
     implementation 'org.json:json:20240303'
 }
 
